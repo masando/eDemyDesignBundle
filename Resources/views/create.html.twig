@@ -1,0 +1,22 @@
+<div style="width:100%">
+    <div style="clear: both; height: 100px;">
+    <div style="float:left; margin-right:20px;">
+        <img src="http://maste.es/wp-content/uploads/2013/11/espacio_anahata_destacado.jpg" width="250px;" />
+    </div>
+    <div style="float:left;">
+        {{ data.fecha|date('Y-m-d') }}
+    </div>
+    <br/>
+    <div style="float:left;">
+        {{ data.precio }}
+    </div>
+    <br/>
+    <div style="float:left;">
+        {{ data.profesor }}
+    </div>
+    </div>
+    <div style="clear:both; margin-left: 30px; margin-top: 30px; position:relative;">
+        <h1>{{ data.actividad }}</h1>
+        <p>{{ data.descripcion }}</p>
+    </div>
+</div>
